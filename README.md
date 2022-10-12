@@ -18,6 +18,18 @@
 
 ## TODO
 
+### 插件实例
+
+- [ ] 简单回复
+- [ ] 发送图片消息
+- [ ] 发送定时消息
+- [ ] 连续对话
+- [ ] 自定义Rule
+- [ ] 自定义Permission
+- [ ] 使用依赖注入（DI）实现事件冷却
+- [ ] 使用Hook实现一个插件管理器
+- [ ] 看看nonebot.utils和nonebot.adapters.onebot.v11.helper里有什么
+
 ### Nonebot2详解
 
 - [ ] Nb2各个组件的说明，以及作用：Driver，Adapter，Bot，Event，Plugin，Matcher，Message
