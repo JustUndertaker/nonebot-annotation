@@ -6,7 +6,7 @@
     <a href="https://github.com/Mrs4s/go-cqhttp"><img src="https://img.shields.io/badge/Gocqhttp-rc1-yellow.svg?" alt="nonebot2"></a>
 </p>
 
-## Nonebot2的文档注解~~《山海经注》~~
+## Nonebot2的文档注解<del>《山海经注》</del>
 
 这里总结了个人对于Nonebot2的使用方法总结，以及对Nonebot抽象模型的分析，希望可以帮助：
 
