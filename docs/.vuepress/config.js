@@ -15,7 +15,7 @@ module.exports = {
     nav: [
       { text: '插件实例', link: '/plugin/' },
       { text: 'Nb2详解', link: '/nonebot/' },
-      { text: '拓展协议', link: '/protocol/'},
+      { text: '拓展协议', link: '/protocol/' },
       { text: 'Github', link: 'https://github.com/JustUndertaker/nonebot-annotation' }
     ],
     sidebar: {
@@ -24,7 +24,7 @@ module.exports = {
           title: '插件实例',
           sidebarDepth: 2,
           children: [
-            ['/plugin/', '插件说明'],
+            ['/plugin/', '导言'],
           ]
         }
       ],
@@ -33,16 +33,23 @@ module.exports = {
           title: 'Nb2详解',
           sidebarDepth: 2,
           children: [
-            ['/nonebot/', '组件说明'],
+            ['/nonebot/', '导言'],
+            ['/nonebot/bot', '从简单机器人开始'],
+            ['/nonebot/driver', '后端驱动Driver'],
+            ['/nonebot/adapter', '适配器Adapter'],
+            ['/nonebot/matcher', '响应器Matcher'],
+            ['/nonebot/plugin', '插件Plugin'],
+            ['/nonebot/config', '配置Config'],
+            ['/nonebot/summary', '总结：从一条消息的出发'],
           ]
         }
       ],
-      '/protocol/':[
+      '/protocol/': [
         {
           title: '拓展协议',
           sidebarDepth: 2,
           children: [
-			['/protocol/','协议说明'],
+            ['/protocol/', '导言'],
           ]
         }
       ]
